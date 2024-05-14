@@ -83,7 +83,6 @@ func (b *Board) renderBoard() {
 		for j := 0; j < b.Size; j++ {
 			fmt.Print(b.Grid[i][j] + "  ")
 		}
-		fmt.Print(" ", i+1)
 		fmt.Println()
 	}
 
